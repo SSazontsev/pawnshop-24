@@ -1,0 +1,188 @@
+{
+	"name": "dkmfzf-frontend-portfolio",
+	"version": "1.71.2",
+	"description": "Frontend portfolio project by DKMFzF",
+	"keywords": [
+		"frontend",
+		"portfolio",
+		"react",
+		"typescript",
+		"webpack",
+		"storybook",
+		"jest"
+	],
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DKMFzF/frontend-portfolio.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DKMFzF/frontend-portfolio/issues"
+	},
+	"homepage": "https://dkmfzf.github.io/frontend-portfolio",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js --env env=prod",
+		"start": "webpack serve --config webpack/webpack.config.js --env env=dev",
+		"preview": "serve dist",
+		"stylelint": "stylelint \"src/**/*.scss\"",
+		"stylelint:fix": "stylelint \"src/**/*.scss\" --fix",
+		"lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+		"format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" --ignore-path ./.prettierignore",
+		"test:e2e": "cypress open",
+		"ci-test:e2e": "cypress run",
+		"test": "jest --verbose",
+		"test:update": "jest --verbose -u",
+		"test:watch": "jest --watchAll",
+		"test:coverage": "jest --coverage",
+		"prepare": "husky install",
+		"prebuild": "npm run lint",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build",
+		"commit": "npm run test:update && git add -A && cz && npx standard-version",
+		"push": "git push origin ",
+		"subset-fonts": "node subset-fonts.js",
+		"clean": "rimraf dist",
+		"deploy": "gh-pages -d dist"
+	},
+	"devDependencies": {
+		"@jest/globals": "^29.7.0",
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+		"@storybook/addon-essentials": "^8.0.5",
+		"@storybook/addon-interactions": "^8.0.5",
+		"@storybook/addon-links": "^8.0.5",
+		"@storybook/addon-onboarding": "^8.0.5",
+		"@storybook/addon-styling-webpack": "^1.0.0",
+		"@storybook/addon-webpack5-compiler-swc": "^1.0.2",
+		"@storybook/blocks": "^8.0.5",
+		"@storybook/react-webpack5": "^8.6.4",
+		"@storybook/test": "^8.0.5",
+		"@svgr/webpack": "^8.0.1",
+		"@testing-library/jest-dom": "5.16.5",
+		"@testing-library/react": "^16.3.0",
+		"@testing-library/react-hooks": "^8.0.1",
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.15.3",
+		"@types/react": "^18.2.0",
+		"@types/react-dom": "^18.2.1",
+		"@typescript-eslint/eslint-plugin": "^5.59.11",
+		"@typescript-eslint/parser": "^5.59.11",
+		"autoprefixer": "^10.4.14",
+		"clean-webpack-plugin": "^4.0.0",
+		"commitizen": "^4.3.0",
+		"copy-webpack-plugin": "^13.0.0",
+		"cross-env": "^7.0.3",
+		"css-loader": "^6.8.1",
+		"cssnano": "^6.0.1",
+		"cypress": "^14.3.2",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.42.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"gh-pages": "^6.3.0",
+		"glob": "7",
+		"html-webpack-plugin": "^5.5.1",
+		"husky": "^8.0.3",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
+		"jest-transform-stub": "^2.0.0",
+		"lint-staged": "^13.2.2",
+		"merge": "^2.1.1",
+		"mini-css-extract-plugin": "^2.7.6",
+		"msw": "^2.7.5",
+		"postcss-clamp": "^4.1.0",
+		"postcss-flexbugs-fixes": "^5.0.2",
+		"postcss-focus-visible": "^10.0.1",
+		"postcss-focus-within": "^9.0.1",
+		"postcss-font-display": "^0.3.0",
+		"postcss-loader": "^7.3.3",
+		"prettier": "^2.8.8",
+		"react-refresh": "^0.14.0",
+		"resolve-url-loader": "^5.0.0",
+		"sass": "^1.85.1",
+		"sass-loader": "^16.0.5",
+		"slash": "3",
+		"standard-version": "^9.5.0",
+		"storybook": "^8.0.5",
+		"style-loader": "^3.3.3",
+		"stylelint": "^16.1.0",
+		"stylelint-config-standard-scss": "^13.0.0",
+		"stylelint-order": "^6.0.3",
+		"ts-jest": "^29.3.2",
+		"ts-loader": "^9.4.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.0.4",
+		"typescript-plugin-css-modules": "^5.0.1",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.81.0",
+		"webpack-cli": "^5.0.2",
+		"webpack-dev-server": "^4.15.0",
+		"webpack-log": "^3.0.2"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^2.7.0",
+		"@types/react-helmet": "^6.1.11",
+		"@zlden/react-developer-burger-ui-components": "^1.15.0",
+		"axios": "^1.8.4",
+		"clsx": "^2.1.0",
+		"core-js": "^3.41.0",
+		"dotenv": "^16.5.0",
+		"express": "^4.21.2",
+		"framer-motion": "^12.7.4",
+		"gsap": "^3.12.7",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-draggable": "^4.4.6",
+		"react-helmet-async": "^2.0.5",
+		"react-redux": "^9.2.0",
+		"react-router-dom": "^7.5.3",
+		"redux": "^5.0.1"
+	},
+	"eslintConfig": {
+		"extends": [
+			"plugin:storybook/recommended"
+		]
+	},
+	"lint-staged": {
+		"*.{css,scss}": "npm run stylelint:fix",
+		"*.{js,jsx,ts,tsx}": "npm run lint",
+		"*.{js,jsx,ts,tsx,json,css,scss,md}": "npm run format"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"stylelint": {
+		"extends": [
+			"stylelint-config-standard-scss"
+		],
+		"plugins": [
+			"stylelint-order"
+		],
+		"rules": {
+			"order/properties-alphabetical-order": true
+		}
+	},
+	"engines": {
+		"node": ">=18.0.0",
+		"npm": ">=9.0.0"
+	},
+	"browserslist": [
+		"Android >= 10",
+		"iOS >= 15",
+		"Safari >= 15",
+		"last 2 Edge versions",
+		"last 2 Chrome versions",
+		"last 2 ChromeAndroid versions",
+		"last 2 Firefox versions",
+		"last 2 Opera versions"
+	]
+}
