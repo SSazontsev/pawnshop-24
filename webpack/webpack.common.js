@@ -96,6 +96,7 @@ module.exports = {
 			components: path.resolve(__dirname, '..', './src/components'),
 			'@pages': path.resolve(__dirname, '..', './src/pages'),
 			'@components': path.resolve(__dirname, '..', './src/components'),
+			'@ui': path.resolve(__dirname, '..', './src/components/ui'),
 			'@utils-constants': path.resolve(
 				__dirname,
 				'..',

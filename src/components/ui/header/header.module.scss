@@ -1,0 +1,21 @@
+@use '~styles/variables' as *;
+
+.header {
+  font-family: $font-family;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 100px;
+    font-size: $base-fonts-size;
+  }
+}
