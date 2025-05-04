@@ -2,12 +2,14 @@
 
 .common {
   &__wrapper-container {
+    font-family: $font-family;
     margin-inline: 100px;
-    padding-block: 50px;
+    padding-block: 70px;
   }
 
   &__title {
     font-size: $title-fonts-size;
+    font-weight: 600;
   }
 
   &__link {

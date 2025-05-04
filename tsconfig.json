@@ -30,6 +30,7 @@
 			"@ui": ["src/components/ui"],
 			"@pages": ["src/pages"],
 			"@styles": ["src/styles/index.scss"],
+			"@utils-constants": ["src/utils/constants.ts"],
 		}
 	},
 	"outDir": "./dist/",

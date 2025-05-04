@@ -1,0 +1,37 @@
+.number-card {
+  border: 2px solid #000;
+  position: relative;
+  box-sizing: border-box;
+
+  &__wrapper {
+    padding: 10px 20px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  &__container-main-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    padding-top: 20px;
+    font-size: 40px;
+  }
+
+  &__number {
+    z-index: 0;
+    font-size: 150px;
+    opacity: 0.1;
+  }
+
+  &__list {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__item-list {
+    font-size: clamp(2.5rem, 0.625rem + 2.0833vw, 3.125rem);
+  }
+}
