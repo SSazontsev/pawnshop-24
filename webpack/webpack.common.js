@@ -96,33 +96,10 @@ module.exports = {
 			components: path.resolve(__dirname, '..', './src/components'),
 			'@pages': path.resolve(__dirname, '..', './src/pages'),
 			'@components': path.resolve(__dirname, '..', './src/components'),
-			'@ui': path.resolve(__dirname, '..', './src/components/ui'),
-			'@ui-pages': path.resolve(
-				__dirname,
-				'..',
-				'./src/components/ui/pages'
-			),
-			'@utils-types': path.resolve(__dirname, '..', './src/utils/types'),
 			'@utils-constants': path.resolve(
 				__dirname,
 				'..',
 				'./src/utils/constants'
-			),
-			'@utils-testing': path.resolve(
-				__dirname,
-				'..',
-				'src/utils/testing-helpers'
-			),
-			'@api': path.resolve(
-				__dirname,
-				'..',
-				'./src/utils/flv-test-api.ts'
-			),
-			'@slices': path.resolve(__dirname, '..', './src/services/slices'),
-			'@selectors': path.resolve(
-				__dirname,
-				'..',
-				'./src/services/selectors'
 			),
 			'@images': path.resolve(__dirname, '..', './src/image'),
 			'@hooks': path.resolve(__dirname, '..', './src/hooks')
@@ -131,25 +108,25 @@ module.exports = {
 	plugins: [
 		new HTMLWebpackPlugins({
 			template: path.resolve(__dirname, '..', './public/index.html'),
-			faviconIco: path.resolve(__dirname, '..', './public/favicon.ico'),
-			faviconPng: path.resolve(
-				__dirname,
-				'..',
-				'./public/apple-touch-icon.png'
-			),
-			faviconSvg: path.resolve(__dirname, '..', './public/favicon.svg')
+			// faviconIco: path.resolve(__dirname, '..', './public/favicon.ico'),
+			// faviconPng: path.resolve(
+			// 	__dirname,
+			// 	'..',
+			// 	'./public/apple-touch-icon.png'
+			// ),
+			// faviconSvg: path.resolve(__dirname, '..', './public/favicon.svg')
 		}),
-		new CopyPlugin({
-			patterns: [
-				{
-					from: path.resolve(__dirname, '..', 'public'),
-					to: '.',
-					globOptions: {
-						ignore: ['**/index.html']
-					}
-				}
-			]
-		}),
+		// new CopyPlugin({
+		// 	patterns: [
+		// 		{
+		// 			from: path.resolve(__dirname, '..', 'public'),
+		// 			to: '.',
+		// 			globOptions: {
+		// 				ignore: ['**/index.html']
+		// 			}
+		// 		}
+		// 	]
+		// }),
 		new CleanWebpackPlugin(),
 		new MiniCssExtractPlugin({
 			filename: production
