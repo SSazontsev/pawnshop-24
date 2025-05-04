@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.5...v0.0.6) (2025-05-04)
+
+
+### Features
+
+* added section our-advantages-section ([0bd5623](https://github.com/DKMFzF/frontend-portfolio/commit/0bd5623872008d1152a2445a01d112085176141a))
+
 ### [0.0.5](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.4...v0.0.5) (2025-05-04)
 
 
