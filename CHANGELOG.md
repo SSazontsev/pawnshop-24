@@ -1,0 +1,10 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.1](https://github.com/DKMFzF/frontend-portfolio/compare/v1.72.0...v0.0.1) (2025-05-04)
+
+
+### Bug Fixes
+
+* version project ([8cd4644](https://github.com/DKMFzF/frontend-portfolio/commit/8cd464414dc3c1ae56b00782de289cb6ab44592b))
