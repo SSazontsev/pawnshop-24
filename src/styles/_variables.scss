@@ -1,3 +1,11 @@
+// fonts
 $font-family: 'FeatureMono', system-ui, -apple-system, 'Segoe UI', roboto,
 	'Helvetica Neue', arial, 'Noto Sans', 'Liberation Sans', sans-serif,
 	'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+$base-color: #000;
+$base-fonts-size: 30px;
+$title-fonts-size: 50px;
+
+// effects
+$hover-opacity-effect: 0.8;
+$transition-opacity-effect: opacity ease, 0.5;
