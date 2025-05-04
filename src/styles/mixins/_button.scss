@@ -1,0 +1,15 @@
+@use '../variables' as *;
+
+@mixin button($font-size: 20px, $color: white) {
+	background-color: $color;
+	border: none;
+	border-radius: $btn-border-radius;
+	cursor: pointer;
+	font-size: $font-size;
+	padding: $btn-inside-padding;
+	transition: transform $time-transition;
+
+	&:hover {
+		transform: $scale;
+	}
+}

@@ -1,0 +1,9 @@
+@use '~styles/mixins' as *;
+
+@include font-face(
+	'FeatureMono',
+	'~fonts/FeatureMono/FeatureMono-Regular',
+	400,
+	normal,
+	ttf
+);
