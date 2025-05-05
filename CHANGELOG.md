@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.7...v0.0.8) (2025-05-05)
+
+
+### Bug Fixes
+
+* section wrapper container ([ae41d6f](https://github.com/DKMFzF/frontend-portfolio/commit/ae41d6ff5f73169f5bbe916cc2b85385ef54cc22))
+
 ### [0.0.7](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.6...v0.0.7) (2025-05-05)
 
 
