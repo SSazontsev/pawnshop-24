@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.19 (2025-05-05)
+
+
+### Features
+
+* added google54116a9a8fabcebc ([410eec4](https://github.com/SSazontsev/pawnshop-24/commit/410eec4ac684919496dd46b6b1d1bcf745651cd3))
+* added new map ([9b3bf76](https://github.com/SSazontsev/pawnshop-24/commit/9b3bf7656beb12243bbff6e3efea1dadda913bc9))
+* added section our-advantages-section ([0bd5623](https://github.com/SSazontsev/pawnshop-24/commit/0bd5623872008d1152a2445a01d112085176141a))
+* added section secured-loans ([40e24a2](https://github.com/SSazontsev/pawnshop-24/commit/40e24a2abac63da8397793a4a06a941b5a55e0e3))
+* added state version project ([ef592bc](https://github.com/SSazontsev/pawnshop-24/commit/ef592bca588a788289d67b3ee1c8a025b3b2931b))
+* adding a mobile version ([615c47d](https://github.com/SSazontsev/pawnshop-24/commit/615c47d1d9b7076d0e483e92940a7b6288d7b29b))
+* **asd:** asd ([15c9166](https://github.com/SSazontsev/pawnshop-24/commit/15c9166e6930d301b6b1f33f2076a487c94a60fc))
+* **asd:** asd ([671de82](https://github.com/SSazontsev/pawnshop-24/commit/671de8218caf1edc2000adc25e0b87e80430a1ef))
+* **ex:** sad ([af72224](https://github.com/SSazontsev/pawnshop-24/commit/af722242c6998853ab680f432d145b5470f8d4e8))
+* **footer:** addde state foter in page ([e051a99](https://github.com/SSazontsev/pawnshop-24/commit/e051a99b40ce80200446f07fbe32e0fdd1ae6902))
+* **header:** added headerUI ([8f7667d](https://github.com/SSazontsev/pawnshop-24/commit/8f7667d79b3e6918f35644c24a86ea1d9766753b))
+* init commit ([f65721b](https://github.com/SSazontsev/pawnshop-24/commit/f65721b10a83544aae95d8033255c9504133a7e7))
+* refger ([d8a6512](https://github.com/SSazontsev/pawnshop-24/commit/d8a65123a662b5ac71b5362bf2e40ba351c4a4de))
+* **robots:** search bot compile ([01f1624](https://github.com/SSazontsev/pawnshop-24/commit/01f162464a722603b854fbfa43b055851b33f491))
+* side effect ([249031b](https://github.com/SSazontsev/pawnshop-24/commit/249031bf34395720bde5975a8e05040530e757dc))
+
+
+### Bug Fixes
+
+* asd ([c380296](https://github.com/SSazontsev/pawnshop-24/commit/c380296fbdf7942e8cafd101e54e972bc05c822f))
+* section wrapper container ([ae41d6f](https://github.com/SSazontsev/pawnshop-24/commit/ae41d6ff5f73169f5bbe916cc2b85385ef54cc22))
+* version project ([8cd4644](https://github.com/SSazontsev/pawnshop-24/commit/8cd464414dc3c1ae56b00782de289cb6ab44592b))
+
 ### [0.0.18](https://github.com/SSazontsev/pawnshop-24/compare/v0.0.17...v0.0.18) (2025-05-05)
 
 
