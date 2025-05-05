@@ -17,8 +17,9 @@ export const OurAdvantagesSectionUI: FC = () => (
 				</h1>
 			</div>
 			<div className={styles['our-advantages-section__cards-container']}>
-				{cardsNumbersData.map((card) => (
+				{cardsNumbersData.map((card, index) => (
 					<NumbersCard
+						key={index}
 						title={card.title}
 						number={card.number}
 						info={card.info}

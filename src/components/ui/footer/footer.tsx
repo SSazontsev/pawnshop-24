@@ -16,8 +16,11 @@ export const FooterUI: FC<FooterUIProps> = ({ contacts, at, description }) => (
 				</h2>
 				<address className={styles['footer__address-container']}>
 					<ul className={styles['footer__address-list']}>
-						{contacts.map((contact) => (
-							<li className={styles['footer__item-element']}>
+						{contacts.map((contact, index) => (
+							<li
+								key={index}
+								className={styles['footer__item-element']}
+							>
 								{contact}
 							</li>
 						))}

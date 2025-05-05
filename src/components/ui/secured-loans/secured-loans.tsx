@@ -13,8 +13,9 @@ export const SecuredLoansUI: FC = () => (
 				Займы под залог
 			</h2>
 			<div className={styles['secured-loans__cards-container']}>
-				{cardsSecuredInfoData.map((item) => (
+				{cardsSecuredInfoData.map((item, index) => (
 					<DetailedCard
+						key={index}
 						title={item.title}
 						targetImage={item.targetImage}
 						bgImgage={item.bgImgage}
