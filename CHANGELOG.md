@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/SSazontsev/pawnshop-24/compare/v0.0.17...v0.0.18) (2025-05-05)
+
+
+### Features
+
+* added google54116a9a8fabcebc ([410eec4](https://github.com/SSazontsev/pawnshop-24/commit/410eec4ac684919496dd46b6b1d1bcf745651cd3))
+
 ### [0.0.17](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.16...v0.0.17) (2025-05-05)
 
 
