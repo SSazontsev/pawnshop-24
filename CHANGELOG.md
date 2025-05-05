@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.14...v0.0.15) (2025-05-05)
+
+
+### Features
+
+* **asd:** asd ([15c9166](https://github.com/DKMFzF/frontend-portfolio/commit/15c9166e6930d301b6b1f33f2076a487c94a60fc))
+
 ### [0.0.14](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.13...v0.0.14) (2025-05-05)
 
 
