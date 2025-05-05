@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.8...v0.0.9) (2025-05-05)
+
+
+### Features
+
+* **footer:** addde state foter in page ([e051a99](https://github.com/DKMFzF/frontend-portfolio/commit/e051a99b40ce80200446f07fbe32e0fdd1ae6902))
+
 ### [0.0.8](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.7...v0.0.8) (2025-05-05)
 
 
