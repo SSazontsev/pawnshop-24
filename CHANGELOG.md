@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.10...v0.0.11) (2025-05-05)
+
+
+### Features
+
+* adding a mobile version ([615c47d](https://github.com/DKMFzF/frontend-portfolio/commit/615c47d1d9b7076d0e483e92940a7b6288d7b29b))
+
 ### [0.0.10](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.9...v0.0.10) (2025-05-05)
 
 
