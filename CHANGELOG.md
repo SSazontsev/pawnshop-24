@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.12...v0.0.13) (2025-05-05)
+
+
+### Features
+
+* **ex:** sad ([af72224](https://github.com/DKMFzF/frontend-portfolio/commit/af722242c6998853ab680f432d145b5470f8d4e8))
+
 ### [0.0.12](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.11...v0.0.12) (2025-05-05)
 
 
