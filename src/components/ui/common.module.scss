@@ -1,8 +1,11 @@
 @use '~styles/variables' as *;
 
 .common {
-  &__wrapper-container {
+  &__wrapper-content {
     font-family: $font-family;
+  }
+
+  &__wrapper-container {
     margin-inline: 100px;
     padding-block: 70px;
   }

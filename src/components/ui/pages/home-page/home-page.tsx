@@ -1,17 +1,15 @@
 import { FC } from "react";
-import { OurAdvantagesSection, SecuredLoans } from "@components";
+import { OurAdvantagesSection, SecuredLoans, Footer } from "@components";
 import { TPageProps } from "../types-pages";
 import commonStyles from '@ui/common.module.scss';
-import { LineSeparationUI } from "@ui";
 import styles from './home-page.module.scss';
 
 export const HomePageUI: FC<TPageProps> = ({ classes }) => (
   <div className={`
-    ${commonStyles['common__wrapper-container']}
+    ${commonStyles['common__wrapper-content']}
     ${classes ? classes : ''}
     ${styles['home-page']}
   `}>
-    <LineSeparationUI positionFlag claases={styles['line-up']}/>
     <OurAdvantagesSection />
     <SecuredLoans />
   </div>

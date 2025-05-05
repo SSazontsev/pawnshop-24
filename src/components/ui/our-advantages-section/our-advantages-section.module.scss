@@ -1,16 +1,24 @@
 .our-advantages-section {
   position: relative;
 
+  &__wrapper-container {
+    position: relative;
+  }
+
   &__title-container {
     inline-size: min-content;
   }
 
   &__cards-container {
-    padding-block: 50px 70px;
+    padding-block-start: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     position: relative;
   }
+}
+
+.line-up {
+  top: 0;
 }

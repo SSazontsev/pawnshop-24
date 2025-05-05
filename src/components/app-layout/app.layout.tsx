@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
-import { Header } from "@components";
+import { Footer, Header } from "@components";
 
 export const AppLayout: FC = () => {
   return (
@@ -9,6 +9,7 @@ export const AppLayout: FC = () => {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }
