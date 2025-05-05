@@ -109,25 +109,24 @@ module.exports = {
 	plugins: [
 		new HTMLWebpackPlugins({
 			template: path.resolve(__dirname, '..', './public/index.html'),
-			// faviconIco: path.resolve(__dirname, '..', './public/favicon.ico'),
-			// faviconPng: path.resolve(
-			// 	__dirname,
-			// 	'..',
-			// 	'./public/apple-touch-icon.png'
-			// ),
-			// faviconSvg: path.resolve(__dirname, '..', './public/favicon.svg')
+			favicon: path.resolve(__dirname, '..', './public/favicon.ico'),
+			favicon: path.resolve(
+				__dirname,
+				'..',
+				'./public/apple-touch-icon.png'
+			),
 		}),
-		// new CopyPlugin({
-		// 	patterns: [
-		// 		{
-		// 			from: path.resolve(__dirname, '..', 'public'),
-		// 			to: '.',
-		// 			globOptions: {
-		// 				ignore: ['**/index.html']
-		// 			}
-		// 		}
-		// 	]
-		// }),
+		new CopyPlugin({
+			patterns: [
+				{
+					from: path.resolve(__dirname, '..', 'public'),
+					to: '.',
+					globOptions: {
+						ignore: ['**/index.html']
+					}
+				}
+			]
+		}),
 		new CleanWebpackPlugin(),
 		new MiniCssExtractPlugin({
 			filename: production

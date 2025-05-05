@@ -1,3 +1,4 @@
+export * from './meta-head';
 export * from './app-layout';
 export * from './header';
 export * from './number-card';
