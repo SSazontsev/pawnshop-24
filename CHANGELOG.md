@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.15...v0.0.16) (2025-05-05)
+
+
+### Features
+
+* added new map ([9b3bf76](https://github.com/DKMFzF/frontend-portfolio/commit/9b3bf7656beb12243bbff6e3efea1dadda913bc9))
+
 ### [0.0.15](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.14...v0.0.15) (2025-05-05)
 
 
