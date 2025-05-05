@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.9...v0.0.10) (2025-05-05)
+
+
+### Features
+
+* side effect ([249031b](https://github.com/DKMFzF/frontend-portfolio/commit/249031bf34395720bde5975a8e05040530e757dc))
+
 ### [0.0.9](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.8...v0.0.9) (2025-05-05)
 
 
