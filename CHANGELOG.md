@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.6...v0.0.7) (2025-05-05)
+
+
+### Features
+
+* added section secured-loans ([40e24a2](https://github.com/DKMFzF/frontend-portfolio/commit/40e24a2abac63da8397793a4a06a941b5a55e0e3))
+
 ### [0.0.6](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.5...v0.0.6) (2025-05-04)
 
 
