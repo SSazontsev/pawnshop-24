@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](https://github.com/SSazontsev/pawnshop-24/compare/v0.0.19...v0.0.20) (2025-05-05)
+
+
+### Features
+
+* rerge ([e3c18fe](https://github.com/SSazontsev/pawnshop-24/commit/e3c18fe4361db95c9d8dfe3935d6aee2d0e1922d))
+
 ### 0.0.19 (2025-05-05)
 
 
