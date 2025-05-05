@@ -1,4 +1,49 @@
+@use '~styles/variables' as *;
+
 .footer {
+  font-family: $font-family;
   background-color: #313131;
   color: white;
+
+  &__wrapper-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+  }
+
+  &__content-container {
+    position: relative;
+    inline-size: 50%;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+  }
+
+  &__all-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+  }
+
+  &__description-info {
+    padding: 10px;
+    background-color: white;
+    color: black;
+  }
+
+  &__map {
+    block-size: 450px;
+    filter: brightness(0.9);
+  }
 }

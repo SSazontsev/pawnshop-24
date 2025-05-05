@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
 import { Footer, Header } from "@components";
+import { footerData } from '@utils-constants';
 
 export const AppLayout: FC = () => {
   return (
@@ -9,7 +10,12 @@ export const AppLayout: FC = () => {
       <main>
         <Outlet />
       </main>
-      <Footer />
+      <Footer 
+        phoneNumber={footerData.phoneNumber}
+        address={footerData.address}
+        at={footerData.at}
+        description={footerData.description}
+      />
     </>
   );
 }

@@ -79,3 +79,17 @@ export const cardsSecuredInfoData: CardsSecured[] = [
     bgImgage: cardFridgeBgImage,
   }
 ]
+
+type FooterData = {
+  phoneNumber: string;
+  address: string;
+  at: string;
+  description: string;
+}
+
+export const footerData: FooterData = {
+  phoneNumber: '+7 (999) 123-45-67',
+  address: 'Юр. адрес: 662150, Красноярский край, г. Ачинск, ул. Карьерная, зд. 23, помещ. 2-16',
+  at: '@2025 000 "Ломбард24". Все права защищены.',
+  description: '*Предоставление информации не является публичной офертой ООО "Ломбард24" ИНН: 2443053326 ОГРН: 1222400030588',
+}
