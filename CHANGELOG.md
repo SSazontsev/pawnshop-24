@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.11...v0.0.12) (2025-05-05)
+
+
+### Features
+
+* **robots:** search bot compile ([01f1624](https://github.com/DKMFzF/frontend-portfolio/commit/01f162464a722603b854fbfa43b055851b33f491))
+
 ### [0.0.11](https://github.com/DKMFzF/frontend-portfolio/compare/v0.0.10...v0.0.11) (2025-05-05)
 
 
