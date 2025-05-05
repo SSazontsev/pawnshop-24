@@ -5,9 +5,9 @@ import { NumbersCardsUI } from "@ui";
 export const NumbersCard: FC<TNumberCardsProps> = ({
   title,
   number,
-  list,
+  info,
 }) => <NumbersCardsUI 
   title={title} 
   number={number} 
-  list={list} 
+  info={info} 
 />;

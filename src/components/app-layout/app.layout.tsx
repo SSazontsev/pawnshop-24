@@ -12,6 +12,7 @@ export const AppLayout: FC = () => {
       </main>
       <Footer 
         phoneNumber={footerData.phoneNumber}
+        email={footerData.email}
         address={footerData.address}
         at={footerData.at}
         description={footerData.description}

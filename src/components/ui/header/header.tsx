@@ -18,17 +18,17 @@ export const HeaderUI: FC = () => (
       >
         <ul className={styles.header__list}>
           <li>
-            <a href="#" className={commonStyles.common__link} aria-label="Связаться с нами">
+            <a href="#contacts" className={commonStyles.common__link} aria-label="Связаться с нами">
               контакты
             </a>
           </li>
           <li>
-            <a href="#" className={commonStyles.common__link} aria-label="Условия залога">
+            <a href="#secured-loans" className={commonStyles.common__link} aria-label="Условия залога">
               залог
             </a>
           </li>
           <li>
-            <a href="#" className={commonStyles.common__link} aria-label="Информация о нас">
+            <a href="#about-me" className={commonStyles.common__link} aria-label="Информация о нас">
               о нас
             </a>
           </li>

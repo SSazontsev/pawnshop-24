@@ -5,6 +5,7 @@ import styles from './footer.module.scss';
 
 export const FooterUI: FC<FooterUIProps> = ({
   phoneNumber,
+  email,
   address,
   at,
   description
@@ -12,30 +13,32 @@ export const FooterUI: FC<FooterUIProps> = ({
   <footer className={styles.footer}>
     <div className={`${commonStyles['common__wrapper-container']} ${styles['footer__wrapper-container']}`}>
       <div className={`${styles['footer__contacts']} ${styles['footer__content-container']}`}>
-        <h2 className={commonStyles.common__title}>
+        <h2 id='contacts' className={commonStyles.common__title}>
           Контакты
         </h2>
         <address className={styles['footer__address-container']}>
           <ul className={styles['footer__address-list']}>
-            <li>
+            <li className={styles['footer__item-element']}>
               {phoneNumber}
             </li>
-            <li>
+            <li className={styles['footer__item-element']}>
+              {email}
+            </li>
+            <li className={styles['footer__item-element']}>
               {address}
             </li>
           </ul>
         </address>
         <ul className={styles['footer__all-info']}>
-          <li className={styles['footer__description-info']}>
+          <li className={`${styles['footer__description-info']} ${styles['footer__item-element']}`}>
             {description}
           </li>
-          <li>
+          <li className={styles['footer__item-element']}>
             {at}
           </li>
         </ul>
       </div>
       <div className={styles['footer__content-container']}>
-        {/* <div className={styles['footer__wrapper-map']}></div> */}
         <iframe 
           src="https://yandex.ru/map-widget/v1/?um=constructor%3A64b253fcd68f5d21404d81118bace8536773f3b25815065098eade445a496ae4&amp;source=constructor"
           width="100%"

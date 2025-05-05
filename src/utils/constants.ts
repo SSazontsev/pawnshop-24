@@ -10,46 +10,38 @@ import cardTvBgImage from '@images/card-tv-bg.png';
 import cardFridgeImage from '@images/card-fridge.png';
 import cardFridgeBgImage from '@images/card-fridge-bg.png';
 
+// Настройки карточек с номерам
+
 type CardsNumer = {
   title: string;
   number: string;
-  list: string[];
+  info: string;
 }
 
 export const cardsNumbersData: CardsNumer[] = [
   {
-    title: 'Работаем 24/7',
+    title: 'Работаем без выходных',
     number: '01',
-    list: [
-      'быстрое оформление займа',
-      'Выдача любой суммы за кратчайший срок',
-    ]
-  },
-  {
-    title: 'С нами быстро',
-    number: '02',
-    list: [
-      'быстрое оформление займа',
-      'Выдача любой суммы за кратчайший срок',
-    ]
-  },
-  {
-    title: 'С нами выгодно',
-    number: '03',
-    list: [
-      'быстрое оформление займа',
-      'Выдача любой суммы за кратчайший срок',
-    ]
+    info: 'Ваши финансы не должны зависеть от дня недели! Оценка и выдача денег в любой день с 8:00 до 23:00.'
   },
   {
     title: 'С нами удобно',
+    number: '02',
+    info: 'Комфорт с первого шага — у нас нет очередей, вежливые специалисты и понятные условия. Всё честно и без нервов.'
+  },
+  {
+    title: 'С нами быстро',
+    number: '03',
+    info: 'Минимум документов, мгновенная оценка залога и выдача денег за 15 минут. Без долгих проверок и очередей — только быстрый результат.'
+  },
+  {
+    title: 'С нами надежно',
     number: '04',
-    list: [
-      'быстрое оформление займа',
-      'Выдача любой суммы за кратчайший срок',
-    ]
+    info: 'Гарантируем конфиденциальность ваших персональных данных и сохранность вашего имущества, находящегося в залоге.'
   }
 ]
+
+// настройка карточек с задним фоном
 
 type CardsSecured = {
   title: string;
@@ -80,8 +72,11 @@ export const cardsSecuredInfoData: CardsSecured[] = [
   }
 ]
 
+// натсройки footer
+
 type FooterData = {
   phoneNumber: string;
+  email: string;
   address: string;
   at: string;
   description: string;
@@ -89,6 +84,7 @@ type FooterData = {
 
 export const footerData: FooterData = {
   phoneNumber: '+7 (999) 123-45-67',
+  email: 'info@lambard.ru',
   address: 'Юр. адрес: 662150, Красноярский край, г. Ачинск, ул. Карьерная, зд. 23, помещ. 2-16',
   at: '@2025 000 "Ломбард24". Все права защищены.',
   description: '*Предоставление информации не является публичной офертой ООО "Ломбард24" ИНН: 2443053326 ОГРН: 1222400030588',

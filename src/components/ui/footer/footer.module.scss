@@ -42,6 +42,10 @@
     color: black;
   }
 
+  &__item-element {
+    font-size: 22px;
+  }
+
   &__map {
     block-size: 450px;
     filter: brightness(0.9);
