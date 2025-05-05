@@ -1,0 +1,44 @@
+.detailed-card {
+  position: relative;
+  z-index: 0;
+  inline-size: -webkit-fill-available;
+  min-height: 550px;
+
+  &__filter-bg {
+    position: absolute;
+    z-index: 1;
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: #000;
+    opacity: 0.6;
+  }
+
+  &__wrapper-content {
+    padding: 20px;
+    box-sizing: border-box;
+    block-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__header {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  &__content-img-container {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__content-img {
+    inline-size: 100%;
+  }
+}

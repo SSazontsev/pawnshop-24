@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { OurAdvantagesSection } from "@components";
+import { OurAdvantagesSection, SecuredLoans } from "@components";
 import { TPageProps } from "../types-pages";
 import commonStyles from '@ui/common.module.scss';
 import { LineSeparationUI } from "@ui";
@@ -13,5 +13,6 @@ export const HomePageUI: FC<TPageProps> = ({ classes }) => (
   `}>
     <LineSeparationUI positionFlag claases={styles['line-up']}/>
     <OurAdvantagesSection />
+    <SecuredLoans />
   </div>
 );

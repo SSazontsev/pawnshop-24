@@ -102,7 +102,7 @@ module.exports = {
 				'..',
 				'./src/utils/constants'
 			),
-			'@images': path.resolve(__dirname, '..', './src/image'),
+			'@images': path.resolve(__dirname, '..', './src/images'),
 			'@hooks': path.resolve(__dirname, '..', './src/hooks')
 		}
 	},

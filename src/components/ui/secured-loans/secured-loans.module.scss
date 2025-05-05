@@ -1,0 +1,13 @@
+.secured-loans {
+  &__wrapper-content {
+    padding-block-start: 70px;
+  }
+
+  &__cards-container {
+    padding-block-start: 70px;
+    display: flex;
+    justify-content: space-between;
+    inline-size: 100%;
+    gap: 20px;
+  }
+}

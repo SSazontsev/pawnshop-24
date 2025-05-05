@@ -31,6 +31,7 @@
 			"@pages": ["src/pages"],
 			"@styles": ["src/styles/index.scss"],
 			"@utils-constants": ["src/utils/constants.ts"],
+			"@images": ["src/images"],
 		}
 	},
 	"outDir": "./dist/",
