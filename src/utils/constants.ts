@@ -82,7 +82,7 @@ type FooterData = {
 
 export const footerData: FooterData = {
 	contacts: [
-		'+7 (923) 310-01-00',
+		'+7 (923) 300-70-00',
 		'region204@bk.ru',
 		'Юр. адрес: 662150, Красноярский край, г. Ачинск, ул. Карьерная, зд. 23, помещ. 2-16'
 	],
