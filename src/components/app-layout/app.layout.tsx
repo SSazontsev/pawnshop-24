@@ -17,7 +17,7 @@ export const AppLayout: FC = () => (
 			}
 			name={'Ломбард24'}
 			type={'website'}
-			googleVerificationCode={''}
+			googleVerificationCode={'google54116a9a8fabcebc'}
 		/>
 		<Header />
 		<main>

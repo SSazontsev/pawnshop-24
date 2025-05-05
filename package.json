@@ -12,12 +12,12 @@
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/DKMFzF/frontend-portfolio.git"
+		"url": "https://github.com/SSazontsev/pawnshop-24"
 	},
 	"bugs": {
-		"url": "https://github.com/DKMFzF/frontend-portfolio/issues"
+		"url": "https://github.com/SSazontsev/pawnshop-24/issues"
 	},
-	"homepage": "https://dkmfzf.github.io/frontend-portfolio",
+	"homepage": "https://lombard24achinsk.netlify.app",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
