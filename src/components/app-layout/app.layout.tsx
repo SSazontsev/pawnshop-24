@@ -11,9 +11,7 @@ export const AppLayout: FC = () => {
         <Outlet />
       </main>
       <Footer 
-        phoneNumber={footerData.phoneNumber}
-        email={footerData.email}
-        address={footerData.address}
+        contacts={footerData.contacts}
         at={footerData.at}
         description={footerData.description}
       />

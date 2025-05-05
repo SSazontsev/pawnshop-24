@@ -22,3 +22,29 @@
 .line-up {
   top: 0;
 }
+
+/* --- Адаптив --- */
+@media (max-width: 1024px) {
+  .our-advantages-section {
+    &__cards-container {
+      grid-template-columns: 1fr 1fr; /* оставляем 2 колонки */
+      gap: 15px; /* уменьшаем отступ */
+      padding-block-start: 40px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .our-advantages-section {
+    &__cards-container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding-block-start: 30px;
+    }
+
+    &__title-container {
+      inline-size: 100%;
+      text-align: center;
+    }
+  }
+}

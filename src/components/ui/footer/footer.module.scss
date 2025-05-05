@@ -48,6 +48,36 @@
 
   &__map {
     block-size: 450px;
+    width: 100%;
     filter: brightness(0.9);
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer {
+    &__wrapper-container {
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    &__content-container {
+      inline-size: 100%;
+    }
+
+    &__map {
+      block-size: 350px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    &__item-element {
+      font-size: 18px;
+    }
+
+    &__description-info {
+      font-size: 16px;
+    }
   }
 }

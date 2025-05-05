@@ -4,8 +4,8 @@ $font-family: 'FeatureMono', system-ui, -apple-system, 'Segoe UI', roboto,
 	'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 $base-color: #000;
 $base-fonts-size: 30px;
-$title-fonts-size: clamp(2.8125rem, 1.8222rem + 3.169vw, 4.225rem);
+$title-fonts-size: clamp(1rem, 1.8222rem + 3.169vw, 4.225rem);
 
 // effects
 $hover-opacity-effect: 0.5;
-$transition-opacity-effect: opacity 0.8s ease;
+$transition-opacity-effect: opacity 0.3s ease;

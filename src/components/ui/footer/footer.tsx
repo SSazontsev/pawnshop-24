@@ -4,9 +4,7 @@ import commonStyles from '../common.module.scss';
 import styles from './footer.module.scss';
 
 export const FooterUI: FC<FooterUIProps> = ({
-  phoneNumber,
-  email,
-  address,
+  contacts,
   at,
   description
 }) => (
@@ -18,15 +16,12 @@ export const FooterUI: FC<FooterUIProps> = ({
         </h2>
         <address className={styles['footer__address-container']}>
           <ul className={styles['footer__address-list']}>
-            <li className={styles['footer__item-element']}>
-              {phoneNumber}
-            </li>
-            <li className={styles['footer__item-element']}>
-              {email}
-            </li>
-            <li className={styles['footer__item-element']}>
-              {address}
-            </li>
+            {contacts.map((contact) => (
+                <li className={styles['footer__item-element']}>
+                  {contact}
+                </li>
+              )
+            )}
           </ul>
         </address>
         <ul className={styles['footer__all-info']}>

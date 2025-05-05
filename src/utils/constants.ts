@@ -10,7 +10,7 @@ import cardTvBgImage from '@images/card-tv-bg.png';
 import cardFridgeImage from '@images/card-fridge.png';
 import cardFridgeBgImage from '@images/card-fridge-bg.png';
 
-// Настройки карточек с номерам
+// Настройки карточек с номерами
 
 type CardsNumer = {
   title: string;
@@ -75,17 +75,17 @@ export const cardsSecuredInfoData: CardsSecured[] = [
 // натсройки footer
 
 type FooterData = {
-  phoneNumber: string;
-  email: string;
-  address: string;
+  contacts: string[];
   at: string;
   description: string;
 }
 
 export const footerData: FooterData = {
-  phoneNumber: '+7 (999) 123-45-67',
-  email: 'info@lambard.ru',
-  address: 'Юр. адрес: 662150, Красноярский край, г. Ачинск, ул. Карьерная, зд. 23, помещ. 2-16',
+  contacts: [
+    '+7 (999) 123-45-67',
+    'info@lambard.ru',
+    'Юр. адрес: 662150, Красноярский край, г. Ачинск, ул. Карьерная, зд. 23, помещ. 2-16',
+  ],
   at: '@2025 000 "Ломбард24". Все права защищены.',
   description: '*Предоставление информации не является публичной офертой ООО "Ломбард24" ИНН: 2443053326 ОГРН: 1222400030588',
 }

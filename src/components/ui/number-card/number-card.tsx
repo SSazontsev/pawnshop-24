@@ -3,8 +3,8 @@ import { TNumberCardsUIProps } from './type';
 import styles from './number-card.module.scss';
 
 export const NumbersCardsUI: FC<TNumberCardsUIProps> = ({ 
-  title, 
-  number, 
+  title,
+  number,
   info,
 }) => (
   <article
@@ -14,11 +14,9 @@ export const NumbersCardsUI: FC<TNumberCardsUIProps> = ({
       <div className={styles['number-card__container-main-info']}>
         <div className={styles['number-card__container-info']}>
           <h3 className={styles['number-card__title']}>{title}</h3>
-          <div className={styles['number-card__body-description']}>
-            <span className={styles['number-card__description']}>
-              {info}
-            </span>
-          </div>
+          <span className={styles['number-card__description']}>
+            {info}
+          </span>
         </div>
         <span className={styles['number-card__number']}>{number}</span>
       </div>

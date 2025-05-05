@@ -4,10 +4,13 @@ import styles from './detailed-card.module.scss';
 
 export const DetailedCardUI: FC<DetailedCardUIProps> = ({ title, targetImage, bgImgage }) => (
   <article className={styles['detailed-card']}>
-    <div className={styles['detailed-card__filter-bg']}></div>
-    <div className={styles['detailed-card__wrapper-content']} style={{
-      backgroundImage: `url(${bgImgage})`
-    }}>
+    <div
+      className={styles['detailed-card__wrapper-content']}
+      style={{
+        backgroundImage: `url(${bgImgage})`
+      }}
+    >
+      <div className={styles['detailed-card__filter-bg']}></div> {/* переместили сюда */}
       <header className={styles['detailed-card__header']}>
         <h3>{title}</h3>
       </header>
@@ -17,3 +20,4 @@ export const DetailedCardUI: FC<DetailedCardUIProps> = ({ title, targetImage, bg
     </div>
   </article>
 );
+

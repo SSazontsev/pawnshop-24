@@ -25,3 +25,21 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .common {
+    &__wrapper-container {
+      margin-inline: 50px;
+      padding-block: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .common {
+    &__wrapper-container {
+      margin-inline: 20px;
+      padding-block: 30px;
+    }
+  }
+}
