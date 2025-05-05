@@ -12,7 +12,6 @@ export const MetaHeadInfo: FC<MetaHeadInfoProps> = ({
 	lang
 }) => (
 	<Helmet htmlAttributes={{ lang }}>
-
 		<title>{title}</title>
 
 		{/* Open Graph */}
@@ -61,9 +60,6 @@ export const MetaHeadInfo: FC<MetaHeadInfoProps> = ({
 		</script>
 
 		{/* Canonical link */}
-		<link
-			rel='canonical'
-			href=''
-		/>
+		<link rel='canonical' href='' />
 	</Helmet>
 );

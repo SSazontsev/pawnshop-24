@@ -1,4 +1,4 @@
 export type TLineSeparationProps = {
-  positionFlag: boolean;
-  claases?: string;
-}
+	positionFlag: boolean;
+	claases?: string;
+};

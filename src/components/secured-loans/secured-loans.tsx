@@ -1,4 +1,4 @@
-import { FC } from "react";
-import { SecuredLoansUI } from "@ui";
+import { FC } from 'react';
+import { SecuredLoansUI } from '@ui';
 
-export const SecuredLoans: FC = () => <SecuredLoansUI />
+export const SecuredLoans: FC = () => <SecuredLoansUI />;

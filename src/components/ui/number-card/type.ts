@@ -1,5 +1,5 @@
 export type TNumberCardsUIProps = {
-  title: string;
-  number: string;
-  info: string;
-}
+	title: string;
+	number: string;
+	info: string;
+};

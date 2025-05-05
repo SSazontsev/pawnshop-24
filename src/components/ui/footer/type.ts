@@ -1,5 +1,5 @@
 export type FooterUIProps = {
-  contacts: string[];
-  at: string;
-  description: string;
-}
+	contacts: string[];
+	at: string;
+	description: string;
+};

@@ -11,8 +11,8 @@ const root = createRoot(domNode);
 
 root.render(
 	<StrictMode>
-    <HelmetProvider>
-      <RouterProvider router={router} />
-    </HelmetProvider>
+		<HelmetProvider>
+			<RouterProvider router={router} />
+		</HelmetProvider>
 	</StrictMode>
 );
