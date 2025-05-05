@@ -36,12 +36,18 @@ export const FooterUI: FC<FooterUIProps> = ({ contacts, at, description }) => (
 				</ul>
 			</div>
 			<div className={styles['footer__content-container']}>
-				<iframe
+				{/* <iframe
 					src='https://yandex.ru/map-widget/v1/?um=constructor%3A64b253fcd68f5d21404d81118bace8536773f3b25815065098eade445a496ae4&amp;source=constructor'
 					width='100%'
 					height='100%'
 					className={styles.footer__map}
-				/>
+				/> */}
+				<iframe 
+					src="https://yandex.ru/map-widget/v1/?um=constructor%3A2c2baff77b7660ba98dcdba63af88cdaa67a696a5a10dc64705f918a595eb7f3&amp;source=constructor"
+					width="570"
+					height="334"
+					className={styles.footer__map}
+				></iframe>
 			</div>
 		</div>
 	</footer>
